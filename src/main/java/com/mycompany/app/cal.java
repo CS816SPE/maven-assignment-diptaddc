@@ -1,7 +1,7 @@
 import java.io.*;
 public class cal
 {
-	public static void main(String[] args)
+	public static void main(String[] args) throws IOException
 	{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Enter Operation:\n1.Add\n2.Subtract\n3.Multiply\n4.Divide\n5.Modulus");
